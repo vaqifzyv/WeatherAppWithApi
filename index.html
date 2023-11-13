@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="search-country">
+        <input type="text" placeholder="Country Name" class="searchCountry" />
+        <button class="search-country-button">Search</button>
+      </div>
+      <div class="temp-section">
+        <div class="main-temp">
+          <div class="country">
+            <h2></h2>
+          </div>
+          <div class="tempbycountry">
+            <h1 class="temp"></h1>
+            <p>Overcast</p>
+          </div>
+        </div>
+        <div class="right-about">
+          <div class="sunset-time">
+            <p>
+              Sunset Time:
+              <span class="sunsettime"></span>
+            </p>
+          </div>
+          <div class="air-qua">
+            <p>
+              Air quality:
+              <span class="airqua"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <h3 class="weather-header">Weather Details</h3>
+      <div class="detail-section">
+        <div class="feel-like card">
+          <div class="head-card">
+            <p>Feels like</p>
+          </div>
+          <div class="about-card">
+            <p class="feellike"></p>
+          </div>
+        </div>
+        <div class="ene-wind card">
+          <div class="head-card">
+            <p>ENE wind</p>
+          </div>
+          <div class="about-card">
+            <p class="enewind"></p>
+          </div>
+        </div>
+        <div class="humidity card">
+          <div class="head-card">
+            <p>Humidity</p>
+          </div>
+          <div class="about-card">
+            <p class="humidityper"></p>
+          </div>
+        </div>
+        <div class="cloud-cover card">
+          <div class="head-card">
+            <p>Cloud Cover</p>
+          </div>
+          <div class="about-card">
+            <p class="cloudcover"></p>
+          </div>
+        </div>
+        <div class="visibility card">
+          <div class="head-card">
+            <p>Visibility</p>
+          </div>
+          <div class="about-card">
+            <p class="visibilityNum"></p>
+          </div>
+        </div>
+        <div class="pressure card">
+          <div class="head-card">
+            <p>Pressure</p>
+          </div>
+          <div class="about-card">
+            <p class="pressurePer"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
